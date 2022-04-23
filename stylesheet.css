@@ -1,0 +1,41 @@
+body {
+background-color: #FFFDD1;
+font-family: 'Franklin Gothic Medium';
+}
+
+h2, h3{
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 5px;
+
+}
+
+.btn-primary{
+    background-color: #bea895;
+}
+
+form{
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+
+#todo .todo{
+    display:flex;
+    justify-content: space-between;
+    background-color: #bea895 ;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#todo .todo .content .text{
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+
+}
+
+.todo .actions button{
+    cursor: pointer;
+
+}
